@@ -1,5 +1,3 @@
-local PlayerAPI = loadstring(game:HttpGet("https://raw.github.com/ImMejor35/BloxFruits/refs/heads/main/PlayerAPI.lua"))()
-
 local function toggleNoclip(Toggle: boolean)
     for i,v in pairs(PlayerAPI.getCharacter():GetChildren()) do
         if v.ClassName == "Part" then
