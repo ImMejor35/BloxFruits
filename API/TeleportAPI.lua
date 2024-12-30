@@ -1,4 +1,4 @@
-local function toggleNoclip(Toggle: boolean)
+getgenv().toggleNoclip(Toggle: boolean)
     for i,v in pairs(PlayerAPI.getCharacter():GetChildren()) do
         if v.ClassName == "Part" then
             v.CanCollide = not Toggle
