@@ -7,3 +7,4 @@ end
 
 getgenv().PlayerAPI = git("API/PlayerAPI.lua")
 getgenv().TeleportAPI = git("API/TeleportAPI.lua")
+getgenv().RemoteAPI = git("API/RemoteAPI.lua")
